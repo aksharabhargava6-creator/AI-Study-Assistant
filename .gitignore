@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded documents
+ai-service/uploads/
+uploads/
+
+# Generated vector stores
+ai-service/vector_stores/
+vector_stores/
+
+# Python test/cache files
+.pytest_cache/
+.mypy_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+ai-service/documents.json
+ai-service/vector_store.json
